@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Antonio Peralta"/>
+    <meta name="description" content="This is a traveling page of my own interests"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Travel</title>
+    <link class="logo" rel="shortcut icon" type="image/x-icon" href="img/icon.jpg"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href="css/queries.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (min-width:699px)" type="text/css" href="css/main_nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mobile_nav.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/slider.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+   <style>
+      body{margin: 0; font-family: 'Varela Round', sans-serif;}
+    </style>
+
+</head>
+
+<body onload="myFunction()" >
+
+  <div id="loader"><h3 id="logo">Smart Travel</h3></div>
+  <div id="myDiv">
+    <header>
+
+        <nav class="hide-mobile">
+            <ul>
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#food">Food</a></li>
+                 <li><a href="#videos">Videos</a></li>
+                 <li><a href="#travel">Travel</a></li>
+                 <li><a href="#places">Places</a></li>
+                 <li class="change_li" ><a href="pages/form.html">Form</a></li>
+            </ul>
+
+        </nav>
+        <nav class="show-mobile">
+          <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#food">Food</a>
+            <a href="#videos">Videos</a>
+            <a href="#travel">Travel</a>
+            <a href="#places">Places</a>
+            <a href="pages/form.html">Form</a>
+          </div>
+
+        </div>
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <!--<span class="glyphicon glyphicon-menu-hamburger" onclick="openNav()">Menu</span>-->
+        <li style="float:right"><a href="#" class="social-btn"><i class="glyphicon glyphicon-menu-hamburger change_menu" onclick="openNav()"></i></a></li>
+      </nav>
+
+    </header>
+    <main>
+        <section class="top" id="top">
+          <div class="cover">
+            <h1 class="animated fadeInDown delay-10s">Welcome to <span>Smart Travel</span></h1>
+            <p class="animated fadeInUp delay-10s">Know where to go and how to get there </p>
+            <h5 class="animated fadeInLeft delay-5s">Continue to Content </h5>
+            <a href="#about" class="social-btn animated fadeInLeft delay-5s" id="social-btn"><i class="fa fa-chevron-down"></i></a>
+          </div>
+
+       </section>
+
+       <section id="about">
+         <div class="about-section">
+            <h2 class="center animated fadeInLeft delay-5s">About Us</h2>
+
+            <p class="animated fadeInLeft delay-5s">Smart Travel is a solution to find the the right vacation or
+              business trip for you. It can Connect to you the right airline
+              of any given city or country you choose to travel to. We provide a form
+              to keep in contact with our clients and customers. Feel free to fill
+              out our awesome form <a class="form_link" href="pages/form.html" >here</a>.
+            </p>
+            <p class="animated fadeInLeft delay-5s">
+                With Smart Travel you can travel knowing it all. Enjoy the easy
+                use and the reliable search we can give you. We can guide you to
+                to the best destination travel you can ever experience. With us
+                you will enjoy your trip in every way. With our help
+                everything will go right. Trust Smart Travel!
+
+              </p>
+            <p class="animated fadeInLeft delay-5s">
+              Contact Us By Email:
+              <a class="" href="" >smarttravel@gmail.com</a>
+          </p>
+
+          </div>
+       </section>
+
+       <section id="food">
+         <h2>Food</h2>
+         <div class="container">
+           <div class="row">
+             <ul class="slides">
+               <li>
+                 <div class="col-md-6 ">
+
+                   <img width="100%" height="100%" src="img/food.jpg" />
+
+               </div>
+               <div class="col-md-6 ">
+                <h3 class="food_caption">The World Foods</h3>
+                <p class="food_paragraph">Don't travel without knowing the kind
+                of food they make at restaurants or else where.
+              Know the best Restaurants in each country and city destinations.</p>
+              <p class="food_paragraph">We know it all. We can help you find the best dishes
+              or any kind of plate your looking for when you travel.</p>
+              <p class="food_paragraph">With us we will be right next to you to help you
+              enjoy your meal. For every country, every city, and every restaurant we will provide
+            you with menus and contact information. Anything you need to we will provide. </p>
+               </li>
+
+             </ul>
+
+           </div>
+         </div>
+
+       </section>
+       <section class="swag text-center">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-8 col-md-offset-2">
+               <h1>You Only Live Once<span>Travel To Paradise</span></h1>
+             </div>
+           </div>
+         </div>
+       </section>
+
+       <section id="videos">
+         <h2 >Videos</h2>
+         <div class="flexslider">
+           <div class="container">
+             <div class="row">
+
+             <ul class="slides">
+               <li>
+                 <div class="col-md-6 ">
+                   <video width="100%" height="100%" controls>
+                     <source src="media/LimeBatteryLED.mp4" type="video/mp4">
+                    </video>
+                 <p class="flex-caption-videos">Barcelona, Spain</p>
+               </div>
+               <div class="col-md-6 ">
+                 <video width="100%" height="100%" controls>
+                   <source src="media/LimeBatteryLED.mp4" type="video/mp4">
+                  </video>
+               <p class="flex-caption-videos">La Paz, Bolivia</p>
+
+               </li>
+               <li>
+                 <div class="col-md-6 ">
+                   <video width="100%" height="100%" controls>
+                     <source src="media/LimeBatteryLED.mp4" type="video/mp4">
+                    </video>
+                 <p class="flex-caption-videos">Madagascar</p>
+               </div>
+               <div class="col-md-6 ">
+                 <video width="100%" height="100%" controls>
+                   <source src="media/LimeBatteryLED.mp4" type="video/mp4">
+                  </video>
+               <p class="flex-caption-videos">Sidney, Australia</p>
+
+               </li>
+
+             </ul>
+           </div>
+             </div>
+           </div>
+
+       </section>
+       <section class="table" id="travel">
+          <h2>Travel</h2>
+          <div id="table-wrapper">
+            <div id="table-scroll">
+              <table>
+                <tr>
+                  <th>Airport</th>
+                  <th>City</th>
+                  <th>Country</th>
+                </tr>
+                <tr>
+                  <td>Cibao International Airport</td>
+                  <td>Santiago</td>
+                  <td>Dominican Republic</td>
+                </tr>
+                <tr>
+                  <td>Cancun International Airport</td>
+                  <td>Cancun</td>
+                  <td>Mexico</td>
+                </tr>
+                <tr>
+                  <td>Punta Cana International Airport</td>
+                  <td>Punta Cana</td>
+                  <td>Dominican Republic</td>
+                </tr>
+                <tr>
+                  <td>Norman Manley International Airport</td>
+                  <td>New Kingston</td>
+                  <td>Jamaica</td>
+                </tr>
+                <tr>
+                  <td>Luis Munoz Mario International Airport</td>
+                  <td>San Juan</td>
+                  <td>Puerto Rico</td>
+                </tr>
+                <tr>
+                  <td>Los Angeles International Aiport</td>
+                  <td>Los Angeles</td>
+                  <td>United States</td>
+                </tr>
+                <tr>
+                  <td>San Francisco International Airport</td>
+                  <td>San Francisco</td>
+                  <td>United States</td>
+                </tr>
+                <tr>
+                  <td>Barcelona-El Prat Airport</td>
+                  <td>Barcelona</td>
+                  <td>Spain</td>
+                </tr>
+                <tr>
+                  <td>Charles de Gaulle Airport</td>
+                  <td>Paris</td>
+                  <td>France</td>
+                </tr>
+                <tr>
+                  <td>London City Airport</td>
+                  <td>London</td>
+                  <td>United Kingdom</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+
+       </section>
+      <section id="places">
+        <h2>Places</h2>
+        <div class="flexslider">
+          <div class="container">
+            <div class="row">
+            </div>
+            <ul class="slides">
+              <li>
+                <div class="col-md-4 ">
+                <img width="100%" height="100%" src="img/punta_cana.jpeg" />
+                <p class="flex-caption">Punta Cana, Dominican Republic</p>
+              </div>
+              <div class="col-md-4 ">
+              <img width="100%" height="100%" src="img/puerto_plata.jpg" />
+              <p class="flex-caption">Puerto Plata, Dominican Republic</p>
+            </div>
+            <div class="col-md-4 ">
+            <img width="100%" height="100%" src="img/la_romana.jpg" />
+            <p class="flex-caption">La Romana, Dominican Republic</p>
+          </div>
+              </li>
+              <li>
+                <div class="col-md-4 ">
+                <img width="100%" height="100%" src="img/cancun.jpg" />
+                <p class="flex-caption">Cancun, Mexico</p>
+              </div>
+              <div class="col-md-4 ">
+              <img width="100%" height="100%" src="img/tokyo.jpg" />
+              <p class="flex-caption">Tokyo, Japan</p>
+            </div>
+            <div class="col-md-4 ">
+            <img width="100%" height="100%" src="img/honolulu.jpg" />
+            <p class="flex-caption">Honolulu, Hawaii</p>
+          </div>
+              </li>
+              <li>
+                <div class="col-md-4 ">
+                <img width="100%" height="100%" src="img/indianapolis.jpg" />
+                <p class="flex-caption">Indianapolis, Indiana</p>
+              </div>
+              <div class="col-md-4 ">
+              <img width="100%" height="100%" src="img/paris.jpg" />
+              <p class="flex-caption">Paris, France</p>
+            </div>
+            <div class="col-md-4 ">
+            <img width="100%" height="100%" src="img/rome.jpg" />
+            <p class="flex-caption">Rome, Italy</p>
+          </div>
+              </li>
+
+            </ul>
+          </div>
+            </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <address>250 West Bedford Park Blvd. Bronx, NY 10468
+                Room Gillet 333 <br/><br/>
+        </address>
+        <h3>Connect With Us</h3>
+        <ul class="social-buttons">
+          <li><a href="#" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#" class="social-btn"><i class="fa fa-github"></i></a></li>
+          <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#" class="social-btn"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#" class="social-btn"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <span class="highlight"> &copy; 2017 Smart Travel. All Rights Reserved</span>
+        <li style="float:right"><a href="#" class="social-btn change_btn"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+
+      </footer>
+</div>
+</body>
+</html>

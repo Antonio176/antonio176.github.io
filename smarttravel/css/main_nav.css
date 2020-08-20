@@ -1,0 +1,39 @@
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5em;
+    overflow: hidden;
+    background-color:  #e6e6e6;
+}
+
+nav li {
+    float: left;
+}
+nav .change_li{
+  float: right;
+}
+a {
+    text-decoration: none !important;
+}
+
+
+nav li a {
+    display: block;
+    color: #8c8c8c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #1a75ff;
+    border-radius: 0.3em;
+    height: 5em;
+
+}
+
+.active {
+    background-color: #1a75ff;
+    color: #000;
+}
