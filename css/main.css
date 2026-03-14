@@ -8,7 +8,7 @@ HTML5 display definitions
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio, canvas, video { display: inline-block; display: inline; zoom: 1; }
 /* * Prevents modern browsers from displaying `audio` without controls.
 * Remove excess height in iOS 5 devices. */
 audio:not([controls]) { display: none; height: 0; }
@@ -119,14 +119,14 @@ fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.7
 * 3. Corrects alignment displayed oddly in IE 6/7. */
 legend { border: 0; /* 1 */
 	padding: 0; white-space: normal; /* 2 */
-*margin-left: -7px; /* 3 */ }
+    margin-left: -7px; /* 3 */ }
 /* * 1. Corrects font size not being inherited in all browsers.
 * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5, *    and Chrome.
 * 3. Improves appearance and consistency in all browsers. */
 button, input, select, textarea { font-size: 100%; /* 1 */
 	margin: 0; /* 2 */
 	vertical-align: baseline; /* 3 */
-*vertical-align: middle; /* 3 */ }
+    vertical-align: middle; /* 3 */ }
 /* * Addresses Firefox 3+ setting `line-height` on `input` using ` !important` in
 * the UA stylesheet. */
 button, input { line-height: normal; }
@@ -140,7 +140,7 @@ button, input { line-height: normal; }
 button, html input[type="button"], /* 1 */
 input[type="reset"], input[type="submit"] { -webkit-appearance: button; /* 2 */
 	cursor: pointer; /* 3 */
-*overflow: visible; /* 4 */ }
+    overflow: visible; /* 4 */ }
 /* * Re-set default cursor for disabled elements. */
 button[disabled], input[disabled] { cursor: default; }
 /* * 1. Addresses box sizing set to content-box in IE 8/9.
@@ -150,7 +150,7 @@ button[disabled], input[disabled] { cursor: default; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; /* 1 */
 	padding: 0; /* 2 */
 	height: 13px; /* 3 */
-*width: 13px; /* 3 */ }
+    width: 13px; /* 3 */ }
 /* * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
 * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
 *    (include `-moz` to future-proof). */
@@ -245,6 +245,7 @@ logo
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
+.intro_2 { background: #ffff; }
 .intro p { margin: 15px 0 0; }
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/triangle.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
@@ -360,3 +361,13 @@ Projects overlay
 .container2:hover .overlay2 { opacity: 1; padding: 5em;}
 .text{ left: 0; right: 0; bottom: 0; margin: 0 auto -10px auto; color: #fff; font-size: 3vw; }
 .text p{ color: #fff; font-size: 2vw; text-align: center; line-height: 2em;}
+ul, ol {
+  list-style-type: none;
+  /* Optional: remove default padding and margin */
+  padding: 0;
+  margin: 0;
+}
+.project_div{
+ padding-bottom: 3%; 
+
+}
